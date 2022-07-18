@@ -10,8 +10,6 @@ terraform {
 }
 
 provider "aws" {
-  region = "sa-east-1"
-  access_key = "xxxxxxxxxxxxxxxxxxx"
-  secret_key = "xxxxxxxxxxxxxxxxxxx"
-  
+  region = var.location
+
 }

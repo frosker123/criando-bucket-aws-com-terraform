@@ -6,16 +6,18 @@ Depois que tiver configurado o iam e gerado as keys no aws console basta passar 
         export AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
  
 
-Agora para poder ver o que o  script ira construir rode o comando : 
-
-```sh
-terraform plan
-```
 
 Se tiver tudo ok com base no que voce quer, rode o comando : 
 
 ```sh
 terraform init
+```
+
+
+Agora para poder ver o que o  script ira construir rode o comando : 
+
+```sh
+terraform plan
 ```
 
 de o "yes" no Enter a Value: 
